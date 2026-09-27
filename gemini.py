@@ -645,6 +645,8 @@ load_dotenv()
 
 API_KEY = os.getenv("GEMINI_API_KEY")
 
+if not API_KEY:
+    API_KEY = st.secrets.get("GEMINI_API_KEY")
 
 # ============================================================
 # PAGE CONFIGURATION
