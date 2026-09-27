@@ -1,6 +1,8 @@
 # Simple AI Chatbot
 
 A simple conversational AI chatbot built using Python and Streamlit.
+## Live Demo
+https://simple-ai-chatbot-amal.streamlit.app/
 
 ## Objective
 
